@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/conniezhong/cpp/PytorchServing/third_party/cpptoml/build/examples",
+  "command": "/usr/bin/c++   -I/home/conniezhong/cpp/PytorchServing/third_party/cpptoml/include   -Wall -pedantic   -std=c++11 -o CMakeFiles/parse.dir/parse.cpp.o -c /home/conniezhong/cpp/PytorchServing/third_party/cpptoml/examples/parse.cpp",
+  "file": "/home/conniezhong/cpp/PytorchServing/third_party/cpptoml/examples/parse.cpp"
+},
+{
+  "directory": "/home/conniezhong/cpp/PytorchServing/third_party/cpptoml/build/examples",
+  "command": "/usr/bin/c++   -I/home/conniezhong/cpp/PytorchServing/third_party/cpptoml/include   -Wall -pedantic   -std=c++11 -o CMakeFiles/cpptoml-parser.dir/parse_stdin.cpp.o -c /home/conniezhong/cpp/PytorchServing/third_party/cpptoml/examples/parse_stdin.cpp",
+  "file": "/home/conniezhong/cpp/PytorchServing/third_party/cpptoml/examples/parse_stdin.cpp"
+},
+{
+  "directory": "/home/conniezhong/cpp/PytorchServing/third_party/cpptoml/build/examples",
+  "command": "/usr/bin/c++   -I/home/conniezhong/cpp/PytorchServing/third_party/cpptoml/include   -Wall -pedantic   -std=c++11 -o CMakeFiles/cpptoml-build.dir/build_toml.cpp.o -c /home/conniezhong/cpp/PytorchServing/third_party/cpptoml/examples/build_toml.cpp",
+  "file": "/home/conniezhong/cpp/PytorchServing/third_party/cpptoml/examples/build_toml.cpp"
+},
+{
+  "directory": "/home/conniezhong/cpp/PytorchServing/third_party/cpptoml/build/examples",
+  "command": "/usr/bin/c++   -I/home/conniezhong/cpp/PytorchServing/third_party/cpptoml/include   -Wall -pedantic   -std=c++11 -o CMakeFiles/cpptoml-conversions.dir/conversions.cpp.o -c /home/conniezhong/cpp/PytorchServing/third_party/cpptoml/examples/conversions.cpp",
+  "file": "/home/conniezhong/cpp/PytorchServing/third_party/cpptoml/examples/conversions.cpp"
+}
+]

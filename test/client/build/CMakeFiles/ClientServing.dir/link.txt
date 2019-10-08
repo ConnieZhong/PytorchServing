@@ -1,0 +1,1 @@
+/usr/bin/c++  -O0 -Wall -g   CMakeFiles/ClientServing.dir/main.cpp.o  -o ../ClientServing  -L/usr/local/lib -Wl,-rpath,/usr/local/lib:/home/conniezhong/cpp/PytorchServing/test/client/../../build/proto -Wl,-Bstatic -lglog -Wl,-Bdynamic -lgrpc -lgrpc++ ../../../build/proto/libproto.so /usr/local/lib/libprotobuf.so -pthread 

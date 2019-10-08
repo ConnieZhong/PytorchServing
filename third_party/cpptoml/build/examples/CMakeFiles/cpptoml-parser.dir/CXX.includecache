@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/cpptoml.h
+algorithm
+-
+cassert
+-
+clocale
+-
+cstdint
+-
+cstring
+-
+fstream
+-
+iomanip
+-
+map
+-
+memory
+-
+sstream
+-
+stdexcept
+-
+string
+-
+unordered_map
+-
+vector
+-
+
+/home/conniezhong/cpp/PytorchServing/third_party/cpptoml/examples/parse_stdin.cpp
+cpptoml.h
+/home/conniezhong/cpp/PytorchServing/third_party/cpptoml/examples/cpptoml.h
+iostream
+-
+limits
+-
+

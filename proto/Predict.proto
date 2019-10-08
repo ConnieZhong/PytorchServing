@@ -1,0 +1,24 @@
+syntax = "proto2";
+
+
+import "Core.proto";
+import "Tensor.proto";
+
+package pytorchserving;
+message PredictRequest {
+    required ModelSpec model_spec = 1;
+    required Tensor inputs = 2;
+}
+
+message PredictResponse {
+    required ModelSpec model_spec = 1;
+    required Tensor outputs = 2;
+    required int32 code = 3;
+    required string message = 4;
+}
+
+
+service Predictor {
+    // Sends a greeting
+    rpc Predict (PredictRequest) returns (PredictResponse);
+}

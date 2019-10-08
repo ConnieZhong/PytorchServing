@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -pedantic  -rdynamic CMakeFiles/cpptoml-build.dir/build_toml.cpp.o  -o ../cpptoml-build 

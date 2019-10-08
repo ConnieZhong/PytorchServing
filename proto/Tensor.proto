@@ -1,0 +1,33 @@
+syntax = "proto2";
+
+
+package pytorchserving;
+
+enum ErrorCode{
+    EC_SUCCESS = 0;
+    EC_TYPE_ERROR = 1;
+    EC_PARM_ERROR = 2;
+    EC_MEM_ERROR = 3;
+};
+
+enum DataType {
+    DT_INVALID = 0;
+    DT_FLOAT = 1;
+    DT_DOUBLE = 2;
+    DT_INT32 = 3;
+    DT_INT64 = 4;
+    //DT_UINT32 = 5; can not find match scalar type
+    //DT_UINT64 = 6;
+    DT_BOOL = 5;
+    //DT_STRING = 6;
+};
+
+message TensorShape {
+    repeated int32 dim = 1;
+};
+
+message Tensor {
+    required DataType dtype = 1;
+    required TensorShape tensor_shape = 2;
+    required bytes data = 3;
+};

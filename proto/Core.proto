@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+package pytorchserving;
+enum Mode{
+    M_INVALID = 0;
+    M_LATEST = 1;
+    M_SPECIFIC = 2;
+};
+
+message ModelSpec {
+    required string model_name = 1;
+    optional int32 version = 2;
+    required int32 mode = 3;
+};

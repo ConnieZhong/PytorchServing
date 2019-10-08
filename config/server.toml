@@ -1,0 +1,24 @@
+#verbal: load mode
+#value : 1-load latest model 2-load specific model
+#
+source_find_loops=5
+load_model_loops=5
+check_stable_times=5
+
+[log]
+log_path = "./"
+log_to_stderr=1
+
+[[model-array]]
+model_name = "simple_model"
+file_path = "/home/conniezhong/cpp/PytorchServing/data"
+version = ""
+load_mode=1
+source_class_name="FileStorageToIStreamSource"
+model_class_name="PytorchModelFromIStream"
+
+#[[model-array]]
+#model_name = ""
+#file_path = ""
+#version = ""
+#load_mode = 1

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -pedantic  -rdynamic CMakeFiles/parse.dir/parse.cpp.o  -o ../parse 

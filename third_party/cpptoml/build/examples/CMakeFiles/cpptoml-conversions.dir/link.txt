@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -pedantic  -rdynamic CMakeFiles/cpptoml-conversions.dir/conversions.cpp.o  -o ../cpptoml-conversions 
