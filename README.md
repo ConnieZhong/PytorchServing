@@ -7,7 +7,7 @@ This server supports any dims tensor of type float, double, int32, int64(find in
 # API
 API is under `proto/Predict.proto` folder.
 
-# Core
+# Sources
 This server will periodically load the model from file-system. And can also be extend to support other storage platform by implement a new `Source` like `FileStorageToIStreamSource`. Find in `sources/FileStorageToIStreamSource.h`).
 
 
